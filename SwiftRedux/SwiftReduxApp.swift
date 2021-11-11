@@ -9,9 +9,21 @@ import SwiftUI
 
 @main
 struct SwiftReduxApp: App {
+    init() {
+        StoreContainer.shared.initializeStore()
+    }
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ArticleListView(viewModel: .init())
+        }
+    }
+}
+
+extension Resolver: ResolverRegistering {
+    public static func registerAllServices() {
+        register {
+            DefaultArticleService() as ArticleService
         }
     }
 }

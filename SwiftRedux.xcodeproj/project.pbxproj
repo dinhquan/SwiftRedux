@@ -8,12 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		1424CB54273D0680009EC6DC /* SwiftReduxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1424CB53273D0680009EC6DC /* SwiftReduxApp.swift */; };
-		1424CB56273D0680009EC6DC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1424CB55273D0680009EC6DC /* ContentView.swift */; };
 		1424CB58273D0682009EC6DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1424CB57273D0682009EC6DC /* Assets.xcassets */; };
 		1424CB5B273D0682009EC6DC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1424CB5A273D0682009EC6DC /* Preview Assets.xcassets */; };
 		1424CB65273D0682009EC6DC /* SwiftReduxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1424CB64273D0682009EC6DC /* SwiftReduxTests.swift */; };
 		1424CB6F273D0682009EC6DC /* SwiftReduxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1424CB6E273D0682009EC6DC /* SwiftReduxUITests.swift */; };
 		1424CB71273D0682009EC6DC /* SwiftReduxUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1424CB70273D0682009EC6DC /* SwiftReduxUITestsLaunchTests.swift */; };
+		1424CB7F273D0792009EC6DC /* SwiftRedux.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1424CB7E273D0792009EC6DC /* SwiftRedux.swift */; };
+		1424CB9C273D07A9009EC6DC /* CodableDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1424CB82273D07A9009EC6DC /* CodableDefault.swift */; };
+		1424CB9D273D07A9009EC6DC /* Resolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1424CB83273D07A9009EC6DC /* Resolver.swift */; };
+		1424CB9E273D07A9009EC6DC /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1424CB85273D07A9009EC6DC /* Article.swift */; };
+		1424CB9F273D07A9009EC6DC /* ArticleReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1424CB87273D07A9009EC6DC /* ArticleReducer.swift */; };
+		1424CBA0273D07A9009EC6DC /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1424CB88273D07A9009EC6DC /* Store.swift */; };
+		1424CBA1273D07A9009EC6DC /* searchArticles.json in Resources */ = {isa = PBXBuildFile; fileRef = 1424CB8B273D07A9009EC6DC /* searchArticles.json */; };
+		1424CBA2273D07A9009EC6DC /* RestAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1424CB8C273D07A9009EC6DC /* RestAPI.swift */; };
+		1424CBA3273D07A9009EC6DC /* ArticleAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1424CB8E273D07A9009EC6DC /* ArticleAPI.swift */; };
+		1424CBA4273D07A9009EC6DC /* NetworkConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1424CB8F273D07A9009EC6DC /* NetworkConfig.swift */; };
+		1424CBA5273D07A9009EC6DC /* ArticleListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1424CB93273D07A9009EC6DC /* ArticleListRow.swift */; };
+		1424CBA6273D07A9009EC6DC /* ArticleListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1424CB94273D07A9009EC6DC /* ArticleListViewModel.swift */; };
+		1424CBA7273D07A9009EC6DC /* ArticleListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1424CB95273D07A9009EC6DC /* ArticleListView.swift */; };
+		1424CBA8273D07A9009EC6DC /* ArticleDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1424CB97273D07A9009EC6DC /* ArticleDetailViewModel.swift */; };
+		1424CBA9273D07A9009EC6DC /* ArticleDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1424CB98273D07A9009EC6DC /* ArticleDetailView.swift */; };
+		1424CBAA273D07A9009EC6DC /* ArticleService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1424CB9A273D07A9009EC6DC /* ArticleService.swift */; };
+		1424CBAD273D0838009EC6DC /* Swinet in Frameworks */ = {isa = PBXBuildFile; productRef = 1424CBAC273D0838009EC6DC /* Swinet */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +52,6 @@
 /* Begin PBXFileReference section */
 		1424CB50273D0680009EC6DC /* SwiftRedux.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftRedux.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1424CB53273D0680009EC6DC /* SwiftReduxApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftReduxApp.swift; sourceTree = "<group>"; };
-		1424CB55273D0680009EC6DC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1424CB57273D0682009EC6DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1424CB5A273D0682009EC6DC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1424CB60273D0682009EC6DC /* SwiftReduxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftReduxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +59,23 @@
 		1424CB6A273D0682009EC6DC /* SwiftReduxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftReduxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1424CB6E273D0682009EC6DC /* SwiftReduxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftReduxUITests.swift; sourceTree = "<group>"; };
 		1424CB70273D0682009EC6DC /* SwiftReduxUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftReduxUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1424CB7E273D0792009EC6DC /* SwiftRedux.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftRedux.swift; sourceTree = "<group>"; };
+		1424CB82273D07A9009EC6DC /* CodableDefault.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodableDefault.swift; sourceTree = "<group>"; };
+		1424CB83273D07A9009EC6DC /* Resolver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Resolver.swift; sourceTree = "<group>"; };
+		1424CB85273D07A9009EC6DC /* Article.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		1424CB87273D07A9009EC6DC /* ArticleReducer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleReducer.swift; sourceTree = "<group>"; };
+		1424CB88273D07A9009EC6DC /* Store.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		1424CB8B273D07A9009EC6DC /* searchArticles.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = searchArticles.json; sourceTree = "<group>"; };
+		1424CB8C273D07A9009EC6DC /* RestAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestAPI.swift; sourceTree = "<group>"; };
+		1424CB8E273D07A9009EC6DC /* ArticleAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleAPI.swift; sourceTree = "<group>"; };
+		1424CB8F273D07A9009EC6DC /* NetworkConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkConfig.swift; sourceTree = "<group>"; };
+		1424CB93273D07A9009EC6DC /* ArticleListRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleListRow.swift; sourceTree = "<group>"; };
+		1424CB94273D07A9009EC6DC /* ArticleListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleListViewModel.swift; sourceTree = "<group>"; };
+		1424CB95273D07A9009EC6DC /* ArticleListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleListView.swift; sourceTree = "<group>"; };
+		1424CB97273D07A9009EC6DC /* ArticleDetailViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleDetailViewModel.swift; sourceTree = "<group>"; };
+		1424CB98273D07A9009EC6DC /* ArticleDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleDetailView.swift; sourceTree = "<group>"; };
+		1424CB9A273D07A9009EC6DC /* ArticleService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleService.swift; sourceTree = "<group>"; };
+		1424CBAE273D0868009EC6DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1424CBAD273D0838009EC6DC /* Swinet in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +107,7 @@
 		1424CB47273D0680009EC6DC = {
 			isa = PBXGroup;
 			children = (
+				1424CB7D273D0792009EC6DC /* Sources */,
 				1424CB52273D0680009EC6DC /* SwiftRedux */,
 				1424CB63273D0682009EC6DC /* SwiftReduxTests */,
 				1424CB6D273D0682009EC6DC /* SwiftReduxUITests */,
@@ -94,9 +128,15 @@
 		1424CB52273D0680009EC6DC /* SwiftRedux */ = {
 			isa = PBXGroup;
 			children = (
+				1424CB80273D07A9009EC6DC /* Common */,
+				1424CB89273D07A9009EC6DC /* Network */,
+				1424CB84273D07A9009EC6DC /* Model */,
+				1424CB99273D07A9009EC6DC /* Service */,
+				1424CB86273D07A9009EC6DC /* Redux */,
+				1424CB90273D07A9009EC6DC /* Module */,
 				1424CB53273D0680009EC6DC /* SwiftReduxApp.swift */,
-				1424CB55273D0680009EC6DC /* ContentView.swift */,
 				1424CB57273D0682009EC6DC /* Assets.xcassets */,
+				1424CBAE273D0868009EC6DC /* Info.plist */,
 				1424CB59273D0682009EC6DC /* Preview Content */,
 			);
 			path = SwiftRedux;
@@ -127,6 +167,111 @@
 			path = SwiftReduxUITests;
 			sourceTree = "<group>";
 		};
+		1424CB7D273D0792009EC6DC /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				1424CB7E273D0792009EC6DC /* SwiftRedux.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		1424CB80273D07A9009EC6DC /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				1424CB82273D07A9009EC6DC /* CodableDefault.swift */,
+				1424CB83273D07A9009EC6DC /* Resolver.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		1424CB84273D07A9009EC6DC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1424CB85273D07A9009EC6DC /* Article.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1424CB86273D07A9009EC6DC /* Redux */ = {
+			isa = PBXGroup;
+			children = (
+				1424CB88273D07A9009EC6DC /* Store.swift */,
+				1424CB87273D07A9009EC6DC /* ArticleReducer.swift */,
+			);
+			path = Redux;
+			sourceTree = "<group>";
+		};
+		1424CB89273D07A9009EC6DC /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				1424CB8F273D07A9009EC6DC /* NetworkConfig.swift */,
+				1424CB8C273D07A9009EC6DC /* RestAPI.swift */,
+				1424CB8D273D07A9009EC6DC /* API */,
+				1424CB8A273D07A9009EC6DC /* Mock */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		1424CB8A273D07A9009EC6DC /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				1424CB8B273D07A9009EC6DC /* searchArticles.json */,
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
+		1424CB8D273D07A9009EC6DC /* API */ = {
+			isa = PBXGroup;
+			children = (
+				1424CB8E273D07A9009EC6DC /* ArticleAPI.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		1424CB90273D07A9009EC6DC /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				1424CB91273D07A9009EC6DC /* ArticleList */,
+				1424CB96273D07A9009EC6DC /* ArticleDetail */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		1424CB91273D07A9009EC6DC /* ArticleList */ = {
+			isa = PBXGroup;
+			children = (
+				1424CB92273D07A9009EC6DC /* View */,
+				1424CB95273D07A9009EC6DC /* ArticleListView.swift */,
+				1424CB94273D07A9009EC6DC /* ArticleListViewModel.swift */,
+			);
+			path = ArticleList;
+			sourceTree = "<group>";
+		};
+		1424CB92273D07A9009EC6DC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1424CB93273D07A9009EC6DC /* ArticleListRow.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1424CB96273D07A9009EC6DC /* ArticleDetail */ = {
+			isa = PBXGroup;
+			children = (
+				1424CB98273D07A9009EC6DC /* ArticleDetailView.swift */,
+				1424CB97273D07A9009EC6DC /* ArticleDetailViewModel.swift */,
+			);
+			path = ArticleDetail;
+			sourceTree = "<group>";
+		};
+		1424CB99273D07A9009EC6DC /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				1424CB9A273D07A9009EC6DC /* ArticleService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +288,9 @@
 			dependencies = (
 			);
 			name = SwiftRedux;
+			packageProductDependencies = (
+				1424CBAC273D0838009EC6DC /* Swinet */,
+			);
 			productName = SwiftRedux;
 			productReference = 1424CB50273D0680009EC6DC /* SwiftRedux.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +363,9 @@
 				Base,
 			);
 			mainGroup = 1424CB47273D0680009EC6DC;
+			packageReferences = (
+				1424CBAB273D0838009EC6DC /* XCRemoteSwiftPackageReference "Swinet" */,
+			);
 			productRefGroup = 1424CB51273D0680009EC6DC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,6 +384,7 @@
 			files = (
 				1424CB5B273D0682009EC6DC /* Preview Assets.xcassets in Resources */,
 				1424CB58273D0682009EC6DC /* Assets.xcassets in Resources */,
+				1424CBA1273D07A9009EC6DC /* searchArticles.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +409,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1424CB56273D0680009EC6DC /* ContentView.swift in Sources */,
+				1424CB9E273D07A9009EC6DC /* Article.swift in Sources */,
+				1424CBA7273D07A9009EC6DC /* ArticleListView.swift in Sources */,
+				1424CB9C273D07A9009EC6DC /* CodableDefault.swift in Sources */,
+				1424CBA4273D07A9009EC6DC /* NetworkConfig.swift in Sources */,
+				1424CBA0273D07A9009EC6DC /* Store.swift in Sources */,
+				1424CB9D273D07A9009EC6DC /* Resolver.swift in Sources */,
+				1424CBA2273D07A9009EC6DC /* RestAPI.swift in Sources */,
+				1424CBA3273D07A9009EC6DC /* ArticleAPI.swift in Sources */,
+				1424CBA9273D07A9009EC6DC /* ArticleDetailView.swift in Sources */,
+				1424CBA8273D07A9009EC6DC /* ArticleDetailViewModel.swift in Sources */,
+				1424CB9F273D07A9009EC6DC /* ArticleReducer.swift in Sources */,
+				1424CB7F273D0792009EC6DC /* SwiftRedux.swift in Sources */,
+				1424CBAA273D07A9009EC6DC /* ArticleService.swift in Sources */,
 				1424CB54273D0680009EC6DC /* SwiftReduxApp.swift in Sources */,
+				1424CBA5273D07A9009EC6DC /* ArticleListRow.swift in Sources */,
+				1424CBA6273D07A9009EC6DC /* ArticleListViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,6 +587,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftRedux/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftRedux/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -450,6 +617,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftRedux/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftRedux/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -601,6 +769,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1424CBAB273D0838009EC6DC /* XCRemoteSwiftPackageReference "Swinet" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/dinhquan/Swinet";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1424CBAC273D0838009EC6DC /* Swinet */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1424CBAB273D0838009EC6DC /* XCRemoteSwiftPackageReference "Swinet" */;
+			productName = Swinet;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1424CB48273D0680009EC6DC /* Project object */;
 }

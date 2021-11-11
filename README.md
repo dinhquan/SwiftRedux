@@ -1,5 +1,5 @@
 # Redux + MVVM + Combine + SwiftUI
-Demonstrate how to using Redux with MVVM pattern to make clean archirecture iOS project
+Demonstrate how to integrate Redux with MVVM pattern in iOS project
 
 ## High level overview
 

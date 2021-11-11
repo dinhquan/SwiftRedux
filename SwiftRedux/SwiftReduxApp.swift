@@ -10,6 +10,7 @@ import SwiftUI
 @main
 struct SwiftReduxApp: App {
     init() {
+        registerDependencies()
         StoreContainer.shared.initializeStore()
     }
     
@@ -18,12 +19,8 @@ struct SwiftReduxApp: App {
             ArticleListView(viewModel: .init())
         }
     }
-}
-
-extension Resolver: ResolverRegistering {
-    public static func registerAllServices() {
-        register {
-            DefaultArticleService() as ArticleService
-        }
+    
+    private func registerDependencies() {
+        Resolver.register(DefaultArticleService() as ArticleService)
     }
 }

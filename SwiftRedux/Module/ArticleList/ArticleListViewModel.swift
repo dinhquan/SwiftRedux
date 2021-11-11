@@ -24,4 +24,3 @@ final class ArticleListViewModel: ObservableObject {
         store.$state.map(\.articles.isLoading).assign(to: &$isLoading)
     }
 }
-

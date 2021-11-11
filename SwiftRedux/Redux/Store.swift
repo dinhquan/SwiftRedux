@@ -30,7 +30,7 @@ typealias AppStore = Store<AppState, AppAction, Environment>
 
 final class StoreContainer {
     var store: AppStore? = nil
-    
+
     static var shared = StoreContainer()
     
     func initializeStore() {
